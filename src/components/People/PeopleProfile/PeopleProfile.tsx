@@ -16,7 +16,9 @@ export default function PeopleProfile({ userData }: { userData: any }) {
     <div className="w-full flex flex-col items-center ">
       <img src={profilePic} alt="" className="rounded-full" width={150} />
       <h1 className="text-3xl font-bold mt-4">{name}</h1>
-      <p className="text-lg font-medium mt-1">{headline}</p>
+      <p className="text-lg font-medium mt-1 md:w-[70%] text-center">
+        {headline}
+      </p>
       <p className="text-sm flex items-center gap-1 mt-1">
         <FaLocationDot className="" />
         {location.city}, {location.country}
