@@ -4,6 +4,7 @@ type PeopleLinkProps = {
   label: string;
   url: string;
   type: string;
+  key: number;
 };
 
 async function IconImporter(type: string) {
@@ -29,10 +30,12 @@ export default async function PeopleLink({
   label,
   url,
   type,
+  key,
 }: PeopleLinkProps) {
   const Icon = await IconImporter(type);
   return (
     <Link
+      key={key}
       href={url}
       className="w-full flex items-center gap-4 px-4 py-2 rounded-full bg-slate-200 hover:border-2 hover:border-sky-600 transition-all duration-400"
     >

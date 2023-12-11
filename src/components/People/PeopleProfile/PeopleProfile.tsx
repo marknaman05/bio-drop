@@ -28,8 +28,11 @@ export default function PeopleProfile({ userData }: { userData: any }) {
         {summary}
       </p>
       <div className="flex flex-wrap justify-center gap-2 my-4 md:w-[70%]">
-        {tags.map((tag: string) => (
-          <span className="bg-sky-200 cursor-pointer text-sm text-sky-600 rounded-full px-2 transition-all duration-400 hover:border hover:border-sky-600">
+        {tags.map((tag: string, idx: number) => (
+          <span
+            key={idx}
+            className="bg-sky-200 cursor-pointer text-sm text-sky-600 rounded-full px-2 transition-all duration-400 hover:border hover:border-sky-600"
+          >
             {tag}
           </span>
         ))}
@@ -37,8 +40,8 @@ export default function PeopleProfile({ userData }: { userData: any }) {
       <div className="w-full mt-2 mb-8">
         <h1 className="text-xl font-bold text-center">Links({links.length})</h1>
         <ul className="mt-2 flex flex-col gap-3">
-          {links.map((link: any) => (
-            <li className="">
+          {links.map((link: any, idx: number) => (
+            <li key={idx} className="">
               <PeopleLink
                 key={link.id}
                 label={link.label}
