@@ -2,7 +2,6 @@ import HeroBtns from "@/components/Home/HeroBtns";
 import { BsGithub } from "react-icons/bs";
 import { MdOutlineMoneyOff } from "react-icons/md";
 import { MdSecurity } from "react-icons/md";
-// import GetStarted from "@/components/Home/GetStarted";
 
 export default function Home() {
   return (
@@ -28,9 +27,6 @@ export default function Home() {
         </div>
         <HeroBtns />
       </section>
-      {/* <section>
-        <GetStarted />
-      </section> */}
     </>
   );
 }
