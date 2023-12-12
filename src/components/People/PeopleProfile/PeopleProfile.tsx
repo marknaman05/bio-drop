@@ -1,5 +1,6 @@
 import { FaLocationDot } from "react-icons/fa6";
 import PeopleLink from "./PeopleLink";
+import QrCode from "./QrCode";
 
 export default function PeopleProfile({ userData }: { userData: any }) {
   const {
@@ -14,7 +15,10 @@ export default function PeopleProfile({ userData }: { userData: any }) {
   } = userData;
   return (
     <div className="w-full flex flex-col items-center ">
-      <img src={profilePic} alt="" className="rounded-full" width={150} />
+      <span className="relative">
+        <img src={profilePic} alt="" className="rounded-full" width={150} />
+        <QrCode image={profilePic} />
+      </span>
       <h1 className="text-3xl font-bold mt-4">{name}</h1>
       <p className="text-lg font-medium mt-1 md:w-[70%] text-center">
         {headline}
