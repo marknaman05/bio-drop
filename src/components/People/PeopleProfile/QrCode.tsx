@@ -17,12 +17,12 @@ export default function QrCode({ image }: QrCodeProps) {
   const url = `https://bio-drop.netlify.app${pathname}`;
 
   useEffect(() => {
+    if (canvasRef.current === null) return;
     QRCode.toCanvas(
       canvasRef.current,
       url,
       {
         width: 280,
-        height: 280,
         errorCorrectionLevel: "H",
       },
       (err: any) => {
