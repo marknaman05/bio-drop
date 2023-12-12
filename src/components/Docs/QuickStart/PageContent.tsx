@@ -102,7 +102,7 @@ export default function PageContent() {
           <div className="">
             <p className="">Clone it to your local machine using</p>
             <pre className="bg-gray-100 p-1 rounded ">
-              git clone "url-of-the-repo"{" "}
+              git clone url-of-the-repo{" "}
             </pre>
           </div>
         </li>
