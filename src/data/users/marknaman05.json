@@ -1,0 +1,46 @@
+{
+    "name": "Naman Ajay Markhedkar",
+    "headline": "Engineering @ BITS Pilani | Full Stack Web Developer | Competitive Programmer | Youtuber",
+    "profilePic": "https://avatars.githubusercontent.com/u/77118629?s=400&u=494a2cfd45f80b84d9ae67cd2c409b46e3e3e80d&v=4",
+    "summary": "I am a 4th year student at BITS Pilani, pursuing B.E. in Computer Science. I am a Full Stack Web Developer and a Programmer. I am also a Youtuber and I make videos on College Life. I am a passionate learner and I love to learn new technologies. I am a team player and I love to work in a team. I am a quick learner and I am always ready to learn new things.",
+    "location": {
+      "city": "Noida",
+      "country": "India",
+      "countryCode": "IN"
+    },
+    "tags": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Material UI",
+        "Git",
+        "GitHub",
+        "C++",
+        "Python",
+        "Java",
+        "MongoDB",
+        "Express.js",
+        "React"
+      ],
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/marknaman05",
+        "label": "Follow me on Twitter"
+      },
+      {
+        "type": "linkedIn",
+        "url": "https://www.linkedin.com/in/namanmarkhedkar/",
+        "label": "Connect with me on LinkedIn"
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/marknaman05",
+        "label": "Follow me on Github"
+      }
+    ]
+  }
+  
