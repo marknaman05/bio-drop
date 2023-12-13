@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./media/bio-drop.png" align="center" width="250px" alt="bio-drop logo">
+<img src="https://github.com/TechStarHub/bio-drop/assets/85790967/7ac7b6ca-dd26-4f3a-9b32-a59defd5f404" align="center" width="300px" alt="bio-drop logo">
 </div>
 
 <h1 align="center"> BioDrop </h1>
