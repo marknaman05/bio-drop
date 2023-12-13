@@ -62,8 +62,9 @@ This project is [MIT](./LICENSE) licensed.
 ## 👨‍💻 Contributors
 
 <table>
-  <tr>
-    <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/85790967?v=4" width="100px;" alt=""/><br /><sub><b>Bijoy Kar</b></sub></a><br /><a href="" title="Code">💻</a></td>
+    <tr>
+        <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/85790967?v=4" width="100px;" alt=""/><br /><sub><b>Bijoy Kar</b></sub></a><br /><a href="" title="Code">💻</a></td>
+        <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/48837703?v=4" width="100px;" alt=""/><br /><sub><b>Imbeshat Aslam</b></sub></a><br /><a href="https://github.com/imbeshat" title="Code">💻</a></td>
     </tr>
 </table>
 
